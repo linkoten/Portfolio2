@@ -39,7 +39,7 @@ const Header = () => {
 
                             <div className='text-left ml-2.5'>
                                 <p className='text-xs text-gray-300 '>
-                                    Phone
+                                    Téléphone
                                 </p>
                                 <p className='hover:text-teal-300 duration-300 transition'>
                                     {' '}
@@ -65,7 +65,7 @@ const Header = () => {
                             </Button>
                             <div className='text-left ml-2.5 hover:text-teal-300 duration-300 transition'>
                                 <p className='text-xs text-gray-300'>
-                                    Location
+                                    Localisation
                                 </p>
                                 <p className=' break-all'>
                                     Rennes France
@@ -122,10 +122,10 @@ const Header = () => {
                             </Button>
                             <div className='text-left ml-2.5 hover:text-teal-300 duration-300 transition'>
                                 <p className='text-xs text-gray-300'>
-                                    Birthday
+                                    Date de Naissance
                                 </p>
                                 <p className=' break-all'>
-                                    July 10, 1996
+                                    10 Juillet 1996
                                 </p>
                             </div>
                         </div>
