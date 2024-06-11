@@ -35,6 +35,8 @@ const Circle = forwardRef<
         </div>
     );
 });
+Circle.displayName = 'Circle';
+
 
 const Technologies = () => {
     const containerRef = useRef<HTMLDivElement>(null);
