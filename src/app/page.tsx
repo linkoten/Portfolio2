@@ -3,7 +3,6 @@ import { Spotlight } from '@/components/ui/Spotlight';
 import Image from 'next/image';
 import React, { forwardRef, useRef } from 'react';
 import Header from '@/components/Header';
-import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Technologies from '@/components/Technologies';

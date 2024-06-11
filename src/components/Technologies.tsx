@@ -68,7 +68,7 @@ const Technologies = () => {
                             GitHub
                             </h4>
                             <p className='text-sm'>
-                            "Une plateforme d'hébergement de code versionné et de collaboration pour les développeurs de logiciels."
+                            Une plateforme d&apos;hébergement de code versionné et de collaboration pour les développeurs de logiciels.
                             </p>
                             <div className='flex items-center pt-2'>
                                 <Link
@@ -129,14 +129,14 @@ const Technologies = () => {
                                 React
                             </h4>
                             <p className='text-sm'>
-                            "Bibliothèque JavaScript pour la création d'interfaces utilisateur modulaires et dynamiques."
+                            Bibliothèque JavaScript pour la création d&apos;interfaces utilisateur modulaires et dynamiques.
                             </p>
                             <div className='flex items-center pt-2'>
                                 <Link
                                     href='https://reactjs.org/'
                                     className='text-xs text-muted-foreground'
                                 >
-                                'https://reactjs.org/'
+                                https://reactjs.org/
                                 </Link>
                             </div>
                         </div>
@@ -170,7 +170,7 @@ const Technologies = () => {
                             </h4>
                             <p className='text-sm'>
                                 Une plateforme de déploiement et
-                                d'hébergement cloud pour les
+                                d&apos;hébergement cloud pour les
                                 applications web et front-end.
                             </p>
                             <div className='flex items-center pt-2'>
@@ -212,14 +212,14 @@ const Technologies = () => {
                                 Next JS
                             </h4>
                             <p className='text-sm'>
-                            "Un framework React pour le rendu côté serveur et le pré-rendu statique, simplifiant le développement d'applications web performantes et SEO-friendly."
+                            Un framework React pour le rendu côté serveur et le pré-rendu statique, simplifiant le développement d&apos;applications web performantes et SEO-friendly.
                             </p>
                             <div className='flex items-center pt-2'>
                                 <Link
                                     href='https://nextjs.org/'
                                     className='text-xs text-muted-foreground'
                                 >
-                                'https://nextjs.org/'
+                                https://nextjs.org/
                                 </Link>
                             </div>
                         </div>
@@ -252,14 +252,14 @@ const Technologies = () => {
                                 PostgreSQL
                             </h4>
                             <p className='text-sm'>
-                            'Un système de gestion de base de données relationnelle (SGBD) open-source populaire pour stocker et gérer des données structurées.'
+                            Un système de gestion de base de données relationnelle (SGBD) open-source populaire pour stocker et gérer des données structurées.
                             </p>
                             <div className='flex items-center pt-2'>
                                 <Link
                                     href="https://www.postgresql.org/"
                                     className='text-xs text-muted-foreground'
                                 >
-                                "https://www.postgresql.org/"
+                                https://www.postgresql.org/
                                 </Link>
                             </div>
                         </div>
@@ -316,14 +316,14 @@ const Technologies = () => {
                                 Shadcn UI
                             </h4>
                             <p className='text-sm'>
-                            'Un framework CSS utility-first inspiré de Tailwind CSS, conçu pour créer des interfaces utilisateur modernes et réactives.'
+                            Un framework CSS utility-first inspiré de Tailwind CSS, conçu pour créer des interfaces utilisateur modernes et réactives.
                             </p>
                             <div className='flex items-center pt-2'>
                                 <Link
                                     href='https://ui.shadcn.com/docs/installation'
                                     className='text-xs text-muted-foreground'
                                 >
-                                'https://ui.shadcn.com/docs/installation'
+                                https://ui.shadcn.com/docs/installation
                                 </Link>
                             </div>
                         </div>
@@ -357,14 +357,14 @@ const Technologies = () => {
                                 MongoDB
                             </h4>
                             <p className='text-sm'>
-                            'Un système de gestion de base de données NoSQL open-source flexible et évolutif pour stocker des données non structurées ou semi-structurées.'
+                            Un système de gestion de base de données NoSQL open-source flexible et évolutif pour stocker des données non structurées ou semi-structurées.
                             </p>
                             <div className='flex items-center pt-2'>
                                 <Link
                                     href='https://www.mongodb.com/'
                                     className='text-xs text-muted-foreground'
                                 >
-                                'https://www.mongodb.com/'
+                                https://www.mongodb.com/
                                 </Link>
                             </div>
                         </div>
@@ -396,14 +396,14 @@ const Technologies = () => {
                             Tailwind CSS
                             </h4>
                             <p className='text-sm'>
-                            'Un framework CSS utility-first qui offre un ensemble de classes CSS pré-construites et personnalisables pour styliser rapidement et facilement des interfaces web.'
+                            Un framework CSS utility-first qui offre un ensemble de classes CSS pré-construites et personnalisables pour styliser rapidement et facilement des interfaces web.
                             </p>
                             <div className='flex items-center pt-2'>
                                 <Link
                                     href='https://tailwindcss.com/'
                                     className='text-xs text-muted-foreground'
                                 >
-                                'https://tailwindcss.com/'
+                                https://tailwindcss.com/
                                 </Link>
                             </div>
                         </div>
