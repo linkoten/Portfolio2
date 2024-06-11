@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button } from './ui/button';
+import Link from 'next/link';
 
 const Header = () => {
     return (
         <header className='  lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-12'>
             <div>
                 <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-4xl'>
-                    <a href='/'>Francois Catto</a>
+                    <Link href='/'>Francois Catto</Link>
                 </h1>
                 <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-lg'>
                     Développeur Junior Frontend
@@ -93,12 +94,12 @@ const Header = () => {
                                 </p>
                                 <p className=' break-all'>
                                     {' '}
-                                    <a
+                                    <Link
                                         className='hover:text-teal-300 duration-300 transition'
                                         href='mailto:catto.francois@hotmail.com'
                                     >
                                         catto.francois@hotmail.fr
-                                    </a>
+                                    </Link>
                                 </p>
                             </div>
                         </div>
@@ -136,7 +137,7 @@ const Header = () => {
                 >
                     <ul className='mt-4 w-max'>
                         <li>
-                            <a
+                            <Link
                                 className='group flex items-center py-3'
                                 href='#technologies'
                             >
@@ -144,11 +145,11 @@ const Header = () => {
                                 <span className='nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200'>
                                     Technologies
                                 </span>
-                            </a>
+                            </Link>
                         </li>
 
                         <li>
-                            <a
+                            <Link
                                 className='group flex items-center py-3'
                                 href='#projects'
                             >
@@ -156,10 +157,10 @@ const Header = () => {
                                 <span className='nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200'>
                                     Projets
                                 </span>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 className='group flex items-center py-3'
                                 href='#experience'
                             >
@@ -167,7 +168,7 @@ const Header = () => {
                                 <span className='nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200'>
                                     Experience
                                 </span>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
@@ -177,7 +178,7 @@ const Header = () => {
                 aria-label='Social media'
             >
                 <li className='mr-5 text-xs shrink-0'>
-                    <a
+                    <Link
                         className='block hover:text-slate-200'
                         href='https://github.com/linkoten'
                         target='_blank'
@@ -195,12 +196,12 @@ const Header = () => {
                         >
                             <path d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z'></path>
                         </svg>
-                    </a>
+                    </Link>
                 </li>
                 
                 
                 <li className='mr-5 text-xs shrink-0'>
-                    <a
+                    <Link
                         className='block hover:text-slate-200'
                         href='https://www.facebook.com/francois.catto'
                             target='_blank'
@@ -220,10 +221,10 @@ const Header = () => {
                                     >
                                         <path d='M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z'></path>
                                     </svg>
-                    </a>
+                    </Link>
                 </li>
                 <li className='mr-5 text-xs shrink-0'>
-                    <a
+                    <Link
                         className='block hover:text-slate-200'
                         href='https://www.malt.fr/profile/francoiscatto'
                             target='_blank'
@@ -243,7 +244,7 @@ const Header = () => {
                                     >
                                         <path d="m408.4 103.8c-32.5-32.4-67.1-11.4-88.8 10.2L114.8 318.8c-21.7 21.7-44.4 54.7-10.2 88.8c34.1 34.1 67 11.4 88.7-10.3l204.8-204.8c21.7-21.6 42.7-56.3 10.3-88.7zm-195.7-8.4 43.4 43.4 44.1-44.2c3-3 6-5.8 9.1-8.4c-4.6-23.3-17.9-44.4-53.3-44.4c-35.4 0-48.7 21.2-53.2 44.5c3.3 2.9 6.6 5.8 9.9 9.1zm87.5 322.1-44.1-44.1-43.4 43.3c-3.3 3.3-6.5 6.4-9.8 9.2c5 23.8 19 45.5 53.1 45.5c34.2 0 48.3-21.9 53.2-45.7c-3-2.6-6-5.2-9-8.2zm-105.9-217h-83.6c-30.7 0-70 9.7-70 55.5c0 34.3 21.9 48.3 45.8 53.2c2.8-3.2 107.8-108.7 107.8-108.7zm231.5 2.3c-2.6 3-107.9 108.8-107.9 108.8h82.4c30.7 0 70-7.3 70-55.6c0-35.3-21.1-48.6-44.5-53.2zm-204.1-29.7 14.9-14.9-43.3-43.4c-21.7-21.7-54.6-44.4-88.8-10.2c-25 25-19.4 49.4-6.2 69.1c4.1-.3 123.4-.6 123.4-.6zm68.7 165.9-15 15 44.2 44.1c21.7 21.7 56.3 42.7 88.7 10.3c24.2-24.2 18.7-49.7 5.3-70c-4.3.3-123.2.6-123.2.6z"></path>
                                     </svg>
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </header>

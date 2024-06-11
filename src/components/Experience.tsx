@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Experience = () => {
@@ -26,7 +27,7 @@ const Experience = () => {
                             <div className='z-10 sm:col-span-6'>
                                 <h3 className='font-medium leading-snug text-slate-200'>
                                     <div>
-                                        <a
+                                        <Link
                                             className='inline-flex items-baseline font-medium leading-tight hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'
                                             href='https://www.klaviyo.com'
                                             target='_blank'
@@ -53,7 +54,7 @@ const Experience = () => {
                                                     </svg>
                                                 </span>
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </h3>
                                 <p className='mt-2 text-sm leading-normal'>
@@ -119,7 +120,7 @@ const Experience = () => {
                             <div className='z-10 sm:col-span-6'>
                                 <h3 className='font-medium leading-snug text-slate-200'>
                                     <div>
-                                        <a
+                                        <Link
                                             className='inline-flex items-baseline font-medium leading-tight hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'
                                             href='https://www.klaviyo.com'
                                             target='_blank'
@@ -145,7 +146,7 @@ const Experience = () => {
                                                     </svg>
                                                 </span>
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </h3>
                                 <p className='mt-2 text-sm leading-normal'>
@@ -190,7 +191,7 @@ const Experience = () => {
                             <div className='z-10 sm:col-span-6'>
                                 <h3 className='font-medium leading-snug text-slate-200'>
                                     <div>
-                                        <a
+                                        <Link
                                             className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'
                                             href='https://upstatement.com'
                                             target='_blank'
@@ -217,7 +218,7 @@ const Experience = () => {
                                                     </svg>
                                                 </span>
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </h3>
                                 <p className='mt-2 text-sm leading-normal'>
@@ -271,7 +272,7 @@ const Experience = () => {
                             <div className='z-10 sm:col-span-6'>
                                 <h3 className='font-medium leading-snug text-slate-200'>
                                     <div>
-                                        <a
+                                        <Link
                                             className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'
                                             href='https://www.klaviyo.com'
                                             target='_blank'
@@ -297,7 +298,7 @@ const Experience = () => {
                                                     </svg>
                                                 </span>
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </h3>
                                 <p className='mt-2 text-sm leading-normal'>
@@ -362,7 +363,7 @@ const Experience = () => {
                             <div className='z-10 sm:col-span-6'>
                                 <h3 className='font-medium leading-snug text-slate-200'>
                                     <div>
-                                        <a
+                                        <Link
                                             className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'
                                             href='https://www.klaviyo.com'
                                             target='_blank'
@@ -390,7 +391,7 @@ const Experience = () => {
                                                     </svg>
                                                 </span>
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </h3>
                                 <p className='mt-2 text-sm leading-normal'>
@@ -440,7 +441,7 @@ const Experience = () => {
                     </li>
                 </ol>
                 <div className='mt-12'>
-                    <a
+                    <Link
                         className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base'
                         href='/resume.pdf'
                         target='_blank'
@@ -466,7 +467,7 @@ const Experience = () => {
                                 </svg>
                             </span>
                         </span>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
