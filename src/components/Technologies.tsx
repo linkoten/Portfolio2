@@ -424,7 +424,7 @@ const Technologies = () => {
             },
             title: 'Dévelopemment Front-End',
             paragraph:
-                "Familiarité avec les principes de base de React pour la mise en œuvre de sites e-commerce fonctionnels, en tirant parti de useState, useEffect, useRef, useContext et props.",
+                "Familiarité avec les principes de React pour la mise en œuvre de sites e-commerce fonctionnels, en tirant parti de useState, useEffect, useRef, useContext et props.",
         },
         {
             images: {
@@ -587,11 +587,11 @@ const Technologies = () => {
                                 )
                             )}
                         </div>
-                        <div className='space-y-2 break-all'>
+                        <div className='space-y-2 '>
                             <h3 className='text-white text-xl font-semibold'>
                                 {item.title}
                             </h3>
-                            <p className=' leading-8 text-gray-lite text-xs '>
+                            <p className=' leading-8 text-gray-lite text-xs  '>
                                 {item.paragraph}
                             </p>
                         </div>

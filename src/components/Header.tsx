@@ -10,11 +10,11 @@ const Header = () => {
                     <Link href='/'>Francois Catto</Link>
                 </h1>
                 <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-lg'>
-                    Développeur Junior Frontend
+                    Développeur Junior Full Stack
                 </h2>
                 <div className='mt-4 max-w-xs leading-normal'>
                     Mon objectif est de vous créer un site de
-                    e-commerce minimaliste le plus rapidement et
+                    e-commerce  le plus rapidement et
                     efficacement possible en utilisant les dernières
                     technologies
                     <span className='px-1 font-bold text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 '>
@@ -104,31 +104,7 @@ const Header = () => {
                             </div>
                         </div>
 
-                        <div className='flex py-1.5 undefined '>
-                            <Button className=' group bg-slate-800 hover:bg-gradient-to-r from-sky-700 to-blue-700 '>
-                                <span className='flex-shrink-0 text-[#C17CEB] shadow-md group-hover:text-white'>
-                                    <svg
-                                        stroke='currentColor'
-                                        fill='currentColor'
-                                        strokeWidth='0'
-                                        viewBox='0 0 448 512'
-                                        height='1em'
-                                        width='1em'
-                                        xmlns='http://www.w3.org/2000/svg'
-                                    >
-                                        <path d='M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z'></path>
-                                    </svg>
-                                </span>
-                            </Button>
-                            <div className='text-left ml-2.5 hover:text-teal-300 duration-300 transition'>
-                                <p className='text-xs text-gray-300'>
-                                    Date de Naissance
-                                </p>
-                                <p className=' break-all'>
-                                    10 Juillet 1996
-                                </p>
-                            </div>
-                        </div>
+                        
                 </div>
                 
                 <nav
