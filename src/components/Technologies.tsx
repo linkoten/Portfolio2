@@ -328,7 +328,7 @@ const Technologies = () => {
             <div className="space-y-1">
               <h4 className="text-sm font-semibold">Stripe</h4>
               <p className="text-sm">
-              Stripe est une plateforme en ligne qui permet d'intégrer facilement des paiements sécurisés dans votre application ou votre site web.
+              Stripe est une plateforme en ligne qui permet d&apos;intégrer facilement des paiements sécurisés dans votre application ou votre site web.
               </p>
               <div className="flex items-center pt-2">
                 <Link
