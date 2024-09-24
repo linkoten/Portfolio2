@@ -205,8 +205,8 @@ const Header = () => {
                         href='https://www.malt.fr/profile/francoiscatto'
                             target='_blank'
                             rel='noopener noreferrer'
-                        aria-label='GitHub (opens in a new tab)'
-                        title='GitHub'
+                        aria-label='Malt (opens in a new tab)'
+                        title='Malt'
                     >
                         <span className='sr-only'>Malt</span>
                         <svg
